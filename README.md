@@ -20,3 +20,28 @@ System.out.println("gia tri " +ThuTrongTuan.ThuBa.ordinal());
 + kiểu dữ liệu gốc trong java </br>
 ![ki u d li u](https://cloud.githubusercontent.com/assets/18228937/18314708/59962f2c-753e-11e6-89a8-fed0f35b6fab.png)
 
+### Sử dụng Enum với Switch Case :
+
+```
+enum ChonHinhHoc{
+		HinhChuNhat,
+		HinhVuong,
+		HinhTron }
+  
+System.out.println("nhap hinh can chon: ");
+		int chon = new Scanner(System.in).nextInt();
+		ChonHinhHoc key = ChonHinhHoc.values()[chon];
+		
+		switch (key) {
+		case HinhChuNhat:
+    break;
+  case HinhTron:
+    break;
+  case HinhVuong:
+			break;
+   }
+  
+```
+
+[code demo] (https://github.com/trantronghienit/Enum_In_Java/blob/master/src/main.java)
+
