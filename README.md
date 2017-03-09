@@ -113,6 +113,7 @@ public class FilterColorDescriptor {
 ```
 
 + Nhờ đó rõ ràng là method chấp nhập giá trị String như sau:
+
 ![enum](https://cloud.githubusercontent.com/assets/18228937/23754204/befb119c-050e-11e7-9790-e03d490381bb.png)
 
 
